@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 99
+  controlID: 68
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 100
+  controlID: 69
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 101
+  controlID: 80
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 102
+  controlID: 81
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -433,7 +433,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 16fbffff
+      m_ExpandedIDs: 16fbffff765a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1867,14 +1867,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Material
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\georg\Flapy1
+  m_LastProjectPath: C:\Users\georg\Flappy bird\Flappy-bird\Flapy1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 56}
+    scrollPos: {x: 0, y: 71.80002}
     m_SelectedIDs: 025f0000
     m_LastClickedID: 24322
-    m_ExpandedIDs: 00000000fe5e0000005f0000025f0000045f0000065f00000c5f000000ca9a3b
+    m_ExpandedIDs: 00000000fe5e0000005f00000c5f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1929,7 +1929,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000465f00006c5a0000ec5b00008c5e000032940100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1980,7 +1980,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 551.2
-    width: 1151.8
+    width: 1149.4
     height: 224.19998
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2048,8 +2048,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_ObjectsLockedBeforeSerialization:
-  - {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
+  m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
     m_CachedPref: 162
@@ -2060,7 +2059,7 @@ MonoBehaviour:
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
-    m_IsLocked: 1
+    m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &22
 MonoBehaviour:

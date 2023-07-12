@@ -2218,10 +2218,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a25f316ee1b0941a625b7211080fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Defolt: {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
-  Eloy: {fileID: 2100000, guid: b8a030a7b2bd9c54f9e08b85b3063dd2, type: 2}
-  Blue: {fileID: 2100000, guid: fa72c09154f61cc4b8f4caa162d9309a, type: 2}
-  white: {fileID: 2100000, guid: 44c9b79b6c6128d4cb7c79207c7af400, type: 2}
+  material:
+  - {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
+  - {fileID: 2100000, guid: b8a030a7b2bd9c54f9e08b85b3063dd2, type: 2}
+  - {fileID: 2100000, guid: fa72c09154f61cc4b8f4caa162d9309a, type: 2}
+  - {fileID: 2100000, guid: 44c9b79b6c6128d4cb7c79207c7af400, type: 2}
 --- !u!114 &8294662666572605467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2234,10 +2235,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a25f316ee1b0941a625b7211080fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Defolt: {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
-  Eloy: {fileID: 2100000, guid: b8a030a7b2bd9c54f9e08b85b3063dd2, type: 2}
-  Blue: {fileID: 2100000, guid: fa72c09154f61cc4b8f4caa162d9309a, type: 2}
-  white: {fileID: 2100000, guid: 44c9b79b6c6128d4cb7c79207c7af400, type: 2}
+  material:
+  - {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
+  - {fileID: 2100000, guid: b8a030a7b2bd9c54f9e08b85b3063dd2, type: 2}
+  - {fileID: 2100000, guid: fa72c09154f61cc4b8f4caa162d9309a, type: 2}
+  - {fileID: 2100000, guid: 44c9b79b6c6128d4cb7c79207c7af400, type: 2}
 --- !u!114 &8414405112284618018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2250,10 +2252,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a25f316ee1b0941a625b7211080fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Defolt: {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
-  Eloy: {fileID: 2100000, guid: b8a030a7b2bd9c54f9e08b85b3063dd2, type: 2}
-  Blue: {fileID: 2100000, guid: fa72c09154f61cc4b8f4caa162d9309a, type: 2}
-  white: {fileID: 2100000, guid: 44c9b79b6c6128d4cb7c79207c7af400, type: 2}
+  material:
+  - {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
+  - {fileID: 2100000, guid: b8a030a7b2bd9c54f9e08b85b3063dd2, type: 2}
+  - {fileID: 2100000, guid: fa72c09154f61cc4b8f4caa162d9309a, type: 2}
+  - {fileID: 2100000, guid: 44c9b79b6c6128d4cb7c79207c7af400, type: 2}
 --- !u!136 &8414405112284618019
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2322,7 +2325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a25f316ee1b0941a625b7211080fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Defolt: {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
-  Eloy: {fileID: 2100000, guid: b8a030a7b2bd9c54f9e08b85b3063dd2, type: 2}
-  Blue: {fileID: 2100000, guid: fa72c09154f61cc4b8f4caa162d9309a, type: 2}
-  white: {fileID: 2100000, guid: 44c9b79b6c6128d4cb7c79207c7af400, type: 2}
+  material:
+  - {fileID: 2100000, guid: 2ef809b0e4b89da428ca5e7e0a2dd422, type: 2}
+  - {fileID: 2100000, guid: b8a030a7b2bd9c54f9e08b85b3063dd2, type: 2}
+  - {fileID: 2100000, guid: fa72c09154f61cc4b8f4caa162d9309a, type: 2}
+  - {fileID: 2100000, guid: 44c9b79b6c6128d4cb7c79207c7af400, type: 2}

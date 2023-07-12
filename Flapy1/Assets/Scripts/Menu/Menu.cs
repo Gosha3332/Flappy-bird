@@ -25,7 +25,6 @@ public class Menu : MonoBehaviour
     public void LoadMenu()
     {
         Magazin.SetActive(false);
-        menu.SetActive(true);
     }
     public void Exit()
     {
