@@ -15,9 +15,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Director();
 	RegisterModule_Director();
 
-	void RegisterModule_ImageConversion();
-	RegisterModule_ImageConversion();
-
 	void RegisterModule_InputLegacy();
 	RegisterModule_InputLegacy();
 
@@ -45,9 +42,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_TextCoreTextEngine();
 	RegisterModule_TextCoreTextEngine();
 
-	void RegisterModule_TLS();
-	RegisterModule_TLS();
-
 	void RegisterModule_UI();
 	RegisterModule_UI();
 
@@ -59,12 +53,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_Umbra();
 	RegisterModule_Umbra();
-
-	void RegisterModule_UnityWebRequest();
-	RegisterModule_UnityWebRequest();
-
-	void RegisterModule_UnityWebRequestTexture();
-	RegisterModule_UnityWebRequestTexture();
 
 	void RegisterModule_WebGL();
 	RegisterModule_WebGL();
@@ -160,7 +148,6 @@ class Physics2DSettings; template <> void RegisterUnityClass<Physics2DSettings>(
 class PolygonCollider2D; template <> void RegisterUnityClass<PolygonCollider2D>(const char*);
 class Rigidbody2D; template <> void RegisterUnityClass<Rigidbody2D>(const char*);
 namespace TextRendering { class Font; } template <> void RegisterUnityClass<TextRendering::Font>(const char*);
-namespace TextRenderingPrivate { class TextMesh; } template <> void RegisterUnityClass<TextRenderingPrivate::TextMesh>(const char*);
 namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(const char*);
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
@@ -171,7 +158,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 87 non stripped classes
+	//Total: 86 non stripped classes
 	//0. Animation
 	RegisterUnityClass<Animation>("Animation");
 	//1. AnimationClip
@@ -334,17 +321,15 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
 	//80. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//81. TextMesh
-	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
-	//82. Canvas
+	//81. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//83. CanvasGroup
+	//82. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//84. CanvasRenderer
+	//83. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//85. OcclusionCullingData
+	//84. OcclusionCullingData
 	RegisterUnityClass<OcclusionCullingData>("Umbra");
-	//86. OcclusionCullingSettings
+	//85. OcclusionCullingSettings
 	RegisterUnityClass<OcclusionCullingSettings>("Umbra");
 
 }

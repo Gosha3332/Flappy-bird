@@ -13,7 +13,7 @@ public class FPS : MonoBehaviour
 
 
         fps = 1.0f / Time.deltaTime;
-        fpsText.text = "FPS:" + (int)fps;
+        fpsText.text = "тоя:" + (int)fps;
 
     }
 }

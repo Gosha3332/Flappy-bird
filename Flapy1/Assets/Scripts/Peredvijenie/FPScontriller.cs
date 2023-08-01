@@ -7,8 +7,8 @@ public class FPScontriller : MonoBehaviour
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private float speed = 1f;
 
-    [SerializeField] private Vector3 impulse = new Vector3(0,4,0);
-    [SerializeField] private float yscorenie = 4f;
+    [SerializeField] private Vector3 impulse = new Vector3(0,7,0);
+    //[SerializeField] private float yscorenie = 4f;
 
     private void Start()
     {
@@ -20,7 +20,8 @@ public class FPScontriller : MonoBehaviour
     }
     public void Jampforse()
     {
-        _rigidbody.AddForce(impulse.normalized * yscorenie, ForceMode.Impulse);
+        //_rigidbody.AddForce(impulse.normalized * yscorenie, ForceMode.Impulse);
+        _rigidbody.velocity = impulse;
     }
 
 
