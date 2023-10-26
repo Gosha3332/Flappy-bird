@@ -11,10 +11,12 @@ public class Money : MonoBehaviour
 
     private void Start()
     {
+        selectSkin = PlayerPrefs.GetInt("selectSkin");
         money = PlayerPrefs.GetInt("money");
         moneyText.text = PlayerPrefs.GetString("MoneyText");
         money += Score.NewMoney;
         PlayerPrefs.SetInt("money", money);
         moneyText.text = money.ToString();
+        PlayerPrefs.SetInt("selectSkin", selectSkin);
     }
 }

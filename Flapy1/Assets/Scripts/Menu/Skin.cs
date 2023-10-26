@@ -8,6 +8,8 @@ public class Skin : MonoBehaviour
     private void Start()
     {
         gameObject.GetComponent<MeshRenderer>().material = material[Money.selectSkin];
+        Money.selectSkin = PlayerPrefs.GetInt("selectSkin");
+        PlayerPrefs.SetInt("selectSkin", Money.selectSkin);
     }
 
 }
